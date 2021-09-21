@@ -2,9 +2,9 @@
 //
 
 #include <iostream>
-#include <stdlib.h> // Для rand() и RAND_MAX
-using std::cout;
-using std::cin;
+#include <cstdlib> // Для rand() и RAND_MAX
+using namespace std;
+
 char cells[3][3];
 void make_cells(void);
 void playerturn(void);
